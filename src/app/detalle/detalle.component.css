@@ -1,0 +1,25 @@
+/* home.component.css */
+
+.container {
+    background-color: #87CEEB; /* Color de fondo celeste */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Cambia la fuente a Arial */
+  }
+  
+  /* También puedes aplicar el cambio de fuente a otros elementos según sea necesario */
+  h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Cambia la fuente de los encabezados h2 */
+  }
+  
+  .card-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Cambia la fuente de los títulos de las tarjetas */
+  }
+  
+  /* Cambia el fondo de los recuadros de nombres a amarillo vainilla */
+.card-body {
+    background-color: #F3E5AB; /* Amarillo vainilla */
+  }
+
+/* Cambia el fondo de los recuadros de nombres a amarillo vainilla */
+.col-md-4 {
+    background-color: #F3E5AB; /* Amarillo vainilla */
+  }

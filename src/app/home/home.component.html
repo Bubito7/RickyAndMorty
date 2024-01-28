@@ -1,0 +1,23 @@
+<div class="container">
+    <h2 class="my-4 text-center">{{titulo}}</h2>
+  
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let character of data">
+        <div class="card h-100">
+          <!-- Enlace a la imagen en tamaño completo -->
+          <a [routerLink]="['/character', character.id]">
+            <img class="card-img-top" [src]="character.image" alt="{{ character.name }}" />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ character.name }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Navigation Buttons -->
+    <div class="d-flex justify-content-between my-4">
+      <button class="btn btn-primary" (click)="loadPrevPage()">Página Anterior</button>
+      <button class="btn btn-primary" (click)="loadNextPage()">Página Siguiente</button>
+    </div>
+</div>
